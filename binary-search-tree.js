@@ -613,22 +613,4 @@ class Tree {
 
 
 
-function mulVal(node){
-return node.value * 2
-}
-
-
-let order = [1,2,3,4]
-let order2 = [1,2,3,4,5,6,7]
-let order3 = [1,2,3,4,5,6,7, 8]
-let order4 = [1, 3, 4, 5, 7, 8, 9, 23, 67, 324, 6345]
-let order5 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
-let unorder = [1, 7, 4, 23, 8, 9, 4, 3, 5, 7, 9, 67, 6345, 324]
-
-
-
-let a = new Tree(order2)
-
-
-
 
